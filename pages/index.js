@@ -1,11 +1,11 @@
 import Button from '../components/Button';
 import homeStyles from '../styles/Home.module.css';
-import buttonStyles from '../styles/ButtonStyles.module.css';
+import customButtonStyles from '../styles/CustomButtonStyles.module.css';
 
 export default function Home() {
   return (
     <div className={homeStyles.container}>
-      <Button className={buttonStyles.button} />
+      <Button className={customButtonStyles.button} />
     </div>
   );
 }
