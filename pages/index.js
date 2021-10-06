@@ -1,7 +1,4 @@
-import cn from 'classnames';
-
 import Button from '../components/Button';
-
 import homeStyles from '../styles/Home.module.css';
 import buttonStyles from '../styles/ButtonStyles.module.css';
 
