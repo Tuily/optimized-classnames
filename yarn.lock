@@ -664,6 +664,11 @@ classnames@2.2.6:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
+classnames@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -786,6 +791,11 @@ crypto-browserify@3.12.0, crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
     randomfill "^1.0.3"
+
+css-class-generator@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/css-class-generator/-/css-class-generator-2.0.0.tgz#611ea8b9565763439779100f2473d03b9a8bd99d"
+  integrity sha512-zlmG8hCTmtc+3Esj1R5PgXCKDqJT1Uqhm8NyALvg3kSjAK0+tByFTkMhEh101V+f7toETM4RGigBU4BjGvphLg==
 
 css.escape@1.5.1:
   version "1.5.1"
@@ -2006,6 +2016,13 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+next-optimized-classnames@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/next-optimized-classnames/-/next-optimized-classnames-1.0.2.tgz#1c3447dd58ab684b88414e3197e51c6c17626ed2"
+  integrity sha512-qbO0NBE+LObf0QOSQ524yKrriZEMJcJ+CRXUs/WSR0IuDDufJcXdWEZEPPGPUL0LpRFO9CU/MM3v/3U5a1ukaQ==
+  dependencies:
+    css-class-generator "^2.0.0"
 
 next@11.1.2:
   version "11.1.2"
