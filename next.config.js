@@ -1,3 +1,3 @@
-module.exports = require('next-optimized-classnames')({
+module.exports = {
   reactStrictMode: true,
-});
+};
